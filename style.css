@@ -1,0 +1,69 @@
+body {
+  color: white;
+  background: #020725;
+  margin: 2px;
+}
+
+header {
+  font-size: 80px;
+  color: #B98E0E;
+  border-bottom: solid 2px #FFFFFF;
+  margin: 20px; 
+  padding: 20px; 
+  font-family: "Great Vibes", cursive;
+}
+
+.entrada {
+  font-family: "Merriweather", serif;
+  background: #3F51B5;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+}
+
+.descricao {
+  font-size: 20px;
+}
+
+.primeiro {
+  margin-right: 20px;
+}
+
+img{ 
+  height: 200px;9
+}
+
+.clipes {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+}
+
+.outros img {
+  opacity: 0.5;
+}
+
+.outros img:hover {
+  opacity: 1.0;
+  border: solid 3px white;
+  border-radius: 15px;
+}
+
+.logo {
+  position: relative;
+  top: -40px;
+  left 500px;
+  width: 200px;
+}
